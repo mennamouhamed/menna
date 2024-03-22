@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resposive.css">
+        <title>Travel Diary</title>
+    </head>
+</html>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1 class="logo">Adventures</h1>
+        <div class="center">
+            <span class="trip">Trips</span>
+            <span class="about">About</span>
+            <span class="contact">Contact</span>
+        </div>
+    </nav>
+    <!--header-->
+    <header>
+        <div calss="header-content">
+            <h1>The Best Places</h1>
+            <div class="line"></div>
+            <h1 style="text-align: center;">LOOK</h1>
+        </div>
+    </header>
+    <section>
+        <div class="title">
+            <h1>My Travel Diary</h1>
+        </div>
+        <div class="row">
+            <div class="column">
+               <a href="sharmEl_Sheikh.html" ><img src="sharmelsheikh.jpeg" alt="not fond Sharm El_Shikh image"></a>
+                <h3 style="text-align: center">Sharm El_Shikh</h3>
+            </div>
+            <div class="column">
+                <a href="Hurghada.html"><img src="hurghada.jpeg" alt="not fond hurghada image"></a>
+                <h3 style="text-align: center">Hurghada</h3>
+            </div>
+            <div class="column">
+                <a href="MaesaAlam.html"><img src="maesaalam.jpeg" alt="not fond maesaalam image"></a>
+                <h3 style="text-align: center">MaesaAlam</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+              <a href="MarsaMatrouh.html" > <img src="Marsa_Matrouh_Fortezza Shali.jpg" alt="not fond marsamatrouh image"></a>
+                <h3 style="text-align: center">MarsaMatrouh </h3>
+            </div>
+            <div class="column">
+               <a href="Aswan.html"><img src="aswan1.jpg" alt="not fond aswan image"  ></a>
+                <h3 style="text-align: center">Aswan</h3>
+            </div>
+            <div class="column">
+               <a href="Giza.html"> <img src="giza2.jpg" alt="not fond giza image" ></a>
+                <h3 style="text-align: center"> Giza</h3>
+            </div>
+        </div>
+    </section>
+    <main>
+    <h1>Travel diary</h1>
+      <p>Travel diary I talked about the best places where we can spend our vacation </p>
+      <table border="5px">
+        <thead>
+            <tr>
+                <th> Place</th>
+                <th> Country</th>
+                <th> Date </th>
+            </tr>
+        </thead>
+        <boady>
+            <tr>
+                <td> Salam Mosque</td>
+                <td>Sharm El_Shikh </td> 
+                <td> 24/5/2016</td>
+            </tr>
+            <tr>
+                <td>Tai Heights</td>
+                <td> Hurghada</td>  
+                <td>1/6/2018</td> 
+            </tr>
+            <tr>
+                <td>Porto Ghalib</td>
+                <td> MaesaAlam</td>
+                <td>4/9/2022</td>
+            </tr> 
+            <tr>
+                <td> Mountain of the Dead</td>
+                <td>MarsaMatrouh</td>
+                <td>21/6/2018</td>
+            </tr> 
+            <tr>
+                <td>West Aswan</td>
+                <td>Aswan</td>
+                <td>1/3/2024</td>
+            </tr> 
+            <tr>
+                <td> Pyramids</td>
+                <td> Giza</td>
+                <td>28/5/2017</td>
+            </tr>
+        </boady>
+    </table>
+    <h2> Did You go to ?</h2>
+    <input type="checkbox" id="Sharm El_Shikh" name="Sharm El_Shikh" value="Sharm El_Shikh">
+    <label for="Sharm El_Shikh"> Sharm El_Shikh</label><br>
+    <input type="checkbox" id="Hurghada" name="Hurghada" value="Hurghada">
+    <label for="Hurghada">Hurghada</label><br>
+    <input type="checkbox" id="MaesaAlam" name="MaesaAlam" value="MaesaAlam">
+    <label for="MaesaAlam">MaesaAlam</label><br>
+    <input type="checkbox" id="MarsaMatrouh " name="MarsaMatrouh " value="MarsaMatrouh ">
+    <label for="MarsaMatrouh ">MarsaMatrouh </label><br>
+    <input type="checkbox" id="Aswan" name="Aswan" value="Aswan">
+    <label for="Aswan">Aswan</label><br>
+    <input type="checkbox" id="Giza" name="Giza" value="Giza">
+    <label for="Giza"> Giza</label>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="fname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="passwor"name="password">
+        <input type="submit" value="Submit">
+    </form>
+</main>
+</body>
